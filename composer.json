@@ -1,8 +1,8 @@
 {
-  "name": "dotswan/filament-grapesjs-v3",
-  "description": "",
+  "name": "tiepdev9x/filament-grapesjs-v4",
+  "description": "filament grapesjs v4",
   "keywords": [
-    "dotswan",
+    "tiepdev9x",
     "laravel",
     "filament-grapesjs-v3"
   ],
@@ -14,8 +14,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Dotswan",
-      "email": "tech@dotswan.com",
+      "name": "Tiep Nguyen Dinh",
+      "email": "tiepdev9x@gmail.com",
       "role": "Developer"
     }
   ],
