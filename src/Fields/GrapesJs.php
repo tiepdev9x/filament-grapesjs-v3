@@ -5,13 +5,10 @@ declare(strict_types=1);
 namespace Dotswan\FilamentGrapesjs\Fields;
 
 use Filament\Forms\Components\Field;
-use Filament\Forms\Concerns\HasStateBindingModifiers;
 use Dotswan\FilamentGrapesjs\Fields\Concerns\InteractsWithTools;
 
 class GrapesJs extends Field
 {
-    use HasStateBindingModifiers;
-
     use InteractsWithTools;
     protected string $view = 'filament-grapesjs::fields.grapesjs';
 
