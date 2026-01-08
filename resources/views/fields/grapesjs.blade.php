@@ -22,11 +22,8 @@
         })"
 >
 
-    <div
-        id='gjs_{{$getId()}}'
-        class="grapesjs-wrapper"
-    >
-        {!! $getHtmlData() !!}
+    <div id='gjs_{{$getId()}}' class="grapesjs-wrapper">
+        {!! $getHtmlData() ?: '<div class="gjs-empty-placeholder" style="padding: 100px; text-align: center; color: #aaa; font-size: 20px;">Drag blocks here to start editing</div>' !!}
     </div>
 
 </div>
