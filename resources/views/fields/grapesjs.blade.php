@@ -11,7 +11,7 @@
     wire:ignore
     class="filament-grapesjs"
     x-data="grapesjs({
-            container: '#gjs_{{$getId()}}',
+            container: 'gjs_{{$getId()}}',
             state: $wire.{{ $applyStateBindingModifiers('entangle(\'' . $getStatePath() . '\')') }},
             statePath: '{{ $getStatePath() }}',
             readOnly: {{ $isDisabled() ? 'true' : 'false' }},
